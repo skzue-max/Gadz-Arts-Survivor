@@ -207,8 +207,10 @@ nav ul li a.active {
 
 .video-player {
     position: relative;
-    width: 80%;
-    padding-bottom: 56.25%; /* Ratio 16:9 */
+    width: 80%; /* Ajustez si nécessaire */
+    max-width: 1200px; /* Ajout d'une largeur maximale pour les grands écrans */
+    margin: 0 auto; /* Ceci centre le bloc */
+    padding-bottom: 45%; /* Ratio 16:9 ajusté pour 80% de largeur, 9/16 * 80% = 45% */
     height: 0;
     background-color: #000;
     border-radius: 8px;
